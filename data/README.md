@@ -88,5 +88,6 @@ Import the CSV into this table using whichever tool suits your workflow, for exa
   \copy staging_source_table (invoice_no, stock_code, description, quantity, invoice_date, unit_price, customer_id, country) FROM 'OnlineRetail.csv' WITH (FORMAT csv, HEADER true);
   ```
   
+---
 
 ➡️ **Next:** head to **[`sql/README.md`](../sql/)** for the full cleaning → normalization → analytics pipeline.
